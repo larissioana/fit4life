@@ -113,37 +113,37 @@ export const membership=[
         id:1,
         img:image12,
         title:'Free Training Videos',
-        text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellendus illum sapiente veritatis laboriosam saepe. Sequi vitae voluptatibus ab illo doloribus consequuntur incidunt.'
+        text:'Get access to our excercise tutorials and intructive videos. They are all made for all fitness levels.'
     },
     {
         id:2,
         img:image13,
         title:'Exclusive Community',
-        text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellendus illum sapiente veritatis laboriosam saepe. Sequi vitae voluptatibus ab illo doloribus consequuntur incidunt corrupti autem assumenda! Ducimus eius dolore eum!'
+        text:'Get free access to Fit4life Facebook Group.'
     },
     {
         id:3,
         img:image14,
         title:'Daily Motivation',
-        text:'Non repellendus illum sapiente veritatis laboriosam saepe. Sequi vitae voluptatibus ab illo doloribus consequuntur incidunt corrupti autem assumenda! Ducimus eius dolore eum!'
+        text:'Receive messages from Kadir, your personal fitness & life coach.'
     },
     {
         id:4,
         img:image15,
         title:'Free Recipe',
-        text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellendus illum sapiente veritatis laboriosam saepe. Sequi vitae voluptatibus ab illo doloribus consequuntur incidunt corrupti autem assumenda! Ducimus eius dolore eum!'
+        text:'Free access to our E-Books. Enhance your fitness journey with informative content.',
     },
     {
         id:5,
         img:image16,
         title:'Discounts',
-        text:'Non repellendus illum sapiente veritatis laboriosam saepe. Sequi vitae voluptatibus ab illo doloribus consequuntur incidunt corrupti autem assumenda! Ducimus eius dolore eum!'
+        text:'Member discounts on all Fit4life programs and coaching.',
     },
-    {
+        {
         id:6,
         img:image17,
         title:'Weekly Lives',
-        text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellendus illum sapiente veritatis laboriosam saepe. Sequi vitae voluptatibus ab illo doloribus consequuntur incidunt corrupti autem assumenda! Ducimus eius dolore eum!'
+        text:'On our Facebook group Kadir makes weekly live about these topics: Training, Mindset, Nutrition & Cooking.'
     },
 
 ];
@@ -172,25 +172,25 @@ export const stories=[
         id:1,
         img:story,
         name:'nesli',
-        text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officiis minima voluptates obcaecati omnis minus ipsa quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officiis minima voluptates obcaecati omnis minus ipsa quaerat.'
+        text:'Kadir, my fitness coach has helped me from day one. I love this community and I want to thank Fit4life for teaching me that everything is possible.'
     },
     {
         id:2,
         img:story1,
         name:'jessica',
-        text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officiis minima voluptates obcaecati omnis minus ipsa quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officiis minima voluptates obcaecati omnis minus ipsa quaerat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officiis minima voluptates obcaecati omnis minus ipsa quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officiis minima voluptates obcaecati omnis minus ipsa quaerat.'
+        text:'The program is so inspiring. I am grateful for finding Fit4life because I have seen big changes on how I think and look in a short period of time.'
     },
     {
         id:3,
         img:story2,
         name:'samantah',
-        text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officiis minima voluptates obcaecati omnis minus ipsa quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officiis minima voluptates obcaecati omnis minus ipsa quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officiis minima voluptates obcaecati omnis minus ipsa quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officiis minima voluptates obcaecati omnis minus ipsa quaerat.'
+        text:`Fit4life changed my mindset 100%. I am now more confident, have more discipline and I've learned so many new recipes which I love. Thank you for your support and I also thank the Fit4life community`
     },
     {
         id:4,
         img:story3,
         name:'rafael',
-        text:' Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officiis minima voluptates obcaecati omnis minus ipsa quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officiis minima voluptates obcaecati omnis minus ipsa quaerat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officiis minima voluptates obcaecati omnis minus ipsa quaerat.'
+        text:'At the beginning I was a little bit sceptical with this program but it turned out that it was one of the best decision that I have ever taken.'
     },
 
 ];

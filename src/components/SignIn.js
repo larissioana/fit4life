@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Wrapper} from "../pages/Register";
 import { useState } from "react";
 import { Navigate } from "react-router-dom";
+
 const SignIn=()=>{
     const[formData,setFormData]=useState({
         email:'',

@@ -24,23 +24,19 @@ const ThirdPage=()=>{
                         <h5>{text}</h5>
                     </motion.div>
                 })}
-              
             </motion.div>
             </AnimateSharedLayout>
-        
- 
         </Wrapper>
     )
 };
 export default ThirdPage;
 
 const Wrapper=styled(motion.div)`
-  padding:5rem 2rem 5rem 2rem;
+   padding:5rem 2rem 5rem 2rem;
    display: grid;
    color:white;
    font-family: "Poppins",sans-serif;
    h1{
-   
     text-align: center;
     letter-spacing: 0.2rem;
     font-size: clamp(1rem, 2vw, 1.5rem);
@@ -62,44 +58,32 @@ const Wrapper=styled(motion.div)`
         overscroll-behavior-inline: contain;
         scrollbar-color: rgb(116, 114, 114) rgb(159, 160, 159);
         position:relative;
-       
     } 
-  
-        
-        .media-element{
+    .media-element{
         position:relative;
-       
-       
-       
-        img{
-            width:20rem;
-            height:25rem;
-            object-fit: cover;
-            object-position: center;
-            border-radius:.6rem;
-            
-            
-         }
+    img{
+        width:20rem;
+        height:25rem;
+        object-fit: cover;
+        object-position: center;
+        border-radius:.6rem;
+     }
         }
-        .transition{
-            position:absolute;
-            top: 0;
-            left: 0;
-           
-            opacity:0;
-            transition: opacity .5s ease-in;
-          
-        }
-        .transition:hover {
-            opacity: 1;
-           
-            
-            }
-        h5{
-            margin-bottom:3rem;
-            margin-top:2rem;
-            letter-spacing:.1rem;
-            font-size:clamp(.9rem,2vw,1rem);
-        }
+    .transition{
+        position:absolute;
+        top: 0;
+        left: 0;
+        opacity:0;
+        transition: opacity .5s ease-in;
+    }
+    .transition:hover {
+        opacity: 1;
+    }
+    h5{
+        margin-bottom:3rem;
+        margin-top:2rem;
+        letter-spacing:.1rem;
+        font-size:clamp(.9rem,2vw,1rem);
+    }
     
 `

@@ -3,7 +3,8 @@ import workout from '../img/workout.jpg';
 import styled from "styled-components";
 import {useScrollAnimation} from '../useScrollAnimation';
 import { fade,container } from '../animation';
-import {motion} from 'framer-motion'
+import {motion} from 'framer-motion';
+
 const SecondPage=()=>{
     const[element,controls]=useScrollAnimation();
     return(
@@ -48,7 +49,6 @@ const Wrapper=styled(motion.div)`
         width:40rem;
         background:#0b0b0b99;
         padding:6rem 2rem;
-       
         max-width:360px;
         margin:0 auto;
     

@@ -14,8 +14,7 @@ const FirstPage=()=>{
           <h3><strong>Fit4Life</strong></h3>
             <p>It's not just a program. <b/> A better way to live.<b/></p>
             <p>A healthy mind is key for a healthy body. Fit4Life focuses on creating a stronger mindset. <br/>It will better your relationships with training and with yourself.</p>
-           
-        </div>
+          </div>
         <Description>
             {icons.map(icon=>{
                 const{id,img,text,text2}=icon;
@@ -37,8 +36,6 @@ const FirstSection=styled(motion.div)`
   justify-content: center;
   align-items: center;
   font-family: "Poppins",sans-serif;
-  
-  
   h3{
     text-align:center;
     font-size:clamp(1.2rem,2vw,3.5rem);
@@ -59,7 +56,7 @@ const FirstSection=styled(motion.div)`
    
 `;
 const Description=styled.div`
-  background: linear-gradient(to right, #d5d0d0, #ddd5d5);
+    background: linear-gradient(to right, #d5d0d0, #ddd5d5);
     min-height: 60vh;
     width: 100%;
     margin: 3rem auto 0rem auto;
@@ -68,7 +65,7 @@ const Description=styled.div`
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    .mindset-desc{
+  .mindset-desc{
         padding:2rem 5rem;
         img{
         max-width:20rem;
@@ -86,6 +83,4 @@ const Description=styled.div`
         color: rgb(172, 117, 44);
     }
     }
-    
-   
-`
+  `

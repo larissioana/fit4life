@@ -3,7 +3,6 @@ import styled from "styled-components";
 //Video
 import fitness from '../img/fitness.mp4';
 
-
 const Header=()=>{
     return(
         <HeaderPage>

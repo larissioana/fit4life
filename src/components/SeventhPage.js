@@ -14,7 +14,6 @@ const SeventhPage=()=>{
             <button type="button">Join Now</button>
             </NavLink>
         </div>
-        
         </Wrapper>
     )
 };
@@ -25,10 +24,10 @@ const Wrapper=styled.div`
     background-image: url(${bg});
     width:100%;
     height:100vh;
-   background-position:center;
-   background-size:cover;
-   position:relative;
-   font-family: "Poppins",sans-serif;
+    background-position:center;
+    background-size:cover;
+    position:relative;
+    font-family: "Poppins",sans-serif;
    .membership-desc {
     max-width: 80rem;
     height: 17rem;

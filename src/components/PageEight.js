@@ -16,52 +16,39 @@ const PageEight=()=>{
          <AnimateSharedLayout>
          <Toggle title="Can I join as a beginner?">
          <div className="question">
-          
-            <div className="answer">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corporis consequatur dignissimos expedita itaque sint recusandae voluptate ratione, labore molestias?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ipsa cumque repudiandae in architecto deleniti voluptatem harum iste quos quis!</p>
+        <div className="answer">
+                <p>Absolutely. This program is designed for all fitness levels.</p>
+                <p>I give instructions in my programs and lives with modified workout exercises.</p>
             </div>
-          
-         </div>
+        </div>
          </Toggle>
          <Toggle title='Can I cancel my membership at anytime?'>
          <div className="question">
-           
-            <div className="answer">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corporis consequatur dignissimos expedita itaque sint recusandae voluptate ratione, labore molestias?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ipsa cumque repudiandae in architecto deleniti voluptatem harum iste quos quis!</p>
+           <div className="answer">
+                <p>Yes. You can cancel your membership anytime but you will lose access to all benefits.</p>
             </div>
-        
          </div>
          </Toggle>
          <Toggle title='Can I join from anywhere in the world?'>
          <div className="question">
-        
-            <div className="answer">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corporis consequatur dignissimos expedita itaque sint recusandae voluptate ratione, labore molestias?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ipsa cumque repudiandae in architecto deleniti voluptatem harum iste quos quis!</p>
+         <div className="answer">
+                <p>100%! You can join from anywhere in the world. </p>
+                <p>Our program is accessible everywhere.</p>
             </div>
-            
-         </div>
+        </div>
          </Toggle>
          <Toggle title='How can I interact with you?'>
          <div className="question">
-      
-            <div className="answer">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corporis consequatur dignissimos expedita itaque sint recusandae voluptate ratione, labore molestias?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ipsa cumque repudiandae in architecto deleniti voluptatem harum iste quos quis!</p>
+         <div className="answer">
+            <p>There are several ways: on Facebook group, direct text messages on my social media platforms, or on email.</p>
             </div>
-           
          </div>
          </Toggle>
          <Toggle title='Are live classes saved on the website?'>
          <div className="question">
-      
-            <div className="answer">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corporis consequatur dignissimos expedita itaque sint recusandae voluptate ratione, labore molestias?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ipsa cumque repudiandae in architecto deleniti voluptatem harum iste quos quis!</p>
-            </div>
-           
+         <div className="answer">
+            <p>Yes. All live classes are saved on the private Facebook community page.</p>
+         </div>
          </div>
          </Toggle>
          </AnimateSharedLayout>
@@ -110,6 +97,5 @@ const Wrapper=styled(motion.div)`
         margin-top:1rem;
     }
     }
-        
     }
 `

@@ -20,7 +20,6 @@ const FourthPage=()=>{
                     <h3>{title}</h3>
                     <p>{text}</p>
                     </motion.div>
-               
             })}
           </div>
         </Wrapper>
@@ -59,7 +58,6 @@ const Wrapper=styled(motion.div)`
         object-fit: cover;
     }
     .membership-desc{
-       
         margin:0rem auto;
         padding:2rem 4rem;
     }

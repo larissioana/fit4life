@@ -36,23 +36,19 @@ const Register=()=>{
         <>
         <Wrapper variants={pageAnimation} initial='hidden' animate='show' exit='exit'>
         <h2>Create Account</h2>
-        <form onSubmit={handleSubmit}
-         method="POST"
-         data-netlify="true" name='register'>
-         <input type='hidden' name='form-name' value="register"/>
-         <label htmlFor="firstname">First Name</label>
-        
-         <input onChange={handleChange} required type='text' name='firstName' value={formData.firstName}/>
-         <div className="line"></div>
-         <label  htmlFor="lastname">Last Name</label>
-         <input onChange={handleChange} required type='text' name='lastName' value={formData.lastName}/>
-         <div className="line"></div>
-         <label htmlFor="email">Email</label>
-         <input onChange={handleChange} required type='text' name='email' value={formData.email}/>
-         <div className="line"></div>
-         <label htmlFor="password">Password</label>
-         <input onChange={handleChange} required type='password' name='password' value={formData.password}/>
-         <div className="line"></div>
+        <form onSubmit={handleSubmit}>
+        <label htmlFor="firstname">First Name</label>
+        <input onChange={handleChange} required type='text' name='firstName' value={formData.firstName}/>
+        <div className="line"></div>
+        <label  htmlFor="lastname">Last Name</label>
+        <input onChange={handleChange} required type='text' name='lastName' value={formData.lastName}/>
+        <div className="line"></div>
+        <label htmlFor="email">Email</label>
+        <input onChange={handleChange} required type='text' name='email' value={formData.email}/>
+        <div className="line"></div>
+        <label htmlFor="password">Password</label>
+        <input onChange={handleChange} required type='password' name='password' value={formData.password}/>
+        <div className="line"></div>
         <button type='submit'>Create</button>
         </form>
         <div className="login">

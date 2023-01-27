@@ -9,7 +9,6 @@ const SixthPage=()=>{
     const[index,setIndex]=useState(0);
     const{name,img,text}=stories[index];
 
-
     const checkNumber=(number)=>{
         if(number>stories.length-1){
             return 0;
@@ -71,15 +70,8 @@ const Wrapper=styled.div`
           font-size:clamp(2rem,3vw,4rem);
           cursor:pointer;
           margin-top:1rem;
-          
-         }
-       
- 
-       
-    
-   
-  
-    @media screen and (max-width:500px){
+    }
+        @media screen and (max-width:500px){
         .story-desc{
            display:block;
             
